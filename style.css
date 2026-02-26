@@ -1,0 +1,583 @@
+/* MAIN PAGE */
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.burger-menu {
+  display: none;
+}
+.Logo {
+  width: 150px;
+  height: 70px;
+}
+.menu {
+  display: flex;
+  gap: 65px;
+}
+.span-header {
+  display: flex;
+  gap: 65px;
+  margin-left: 300px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav a {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.top-nav {
+  display: none;
+}
+
+.MainPhoto2 {
+  display: none;
+}
+
+.MainPhoto {
+  display: block;
+}
+
+#main_nav li {
+  z-index: 2;
+  display: flex;
+}
+
+#main_nav div {
+  display: none;
+  position: absolute;
+  background-color: #c3def9;
+  top: 60px;
+  left: 170px;
+  z-index: 1;
+  width: 500px;
+  box-shadow: 5px 5px 5px #0456b7;
+}
+
+#main_nav li a:hover {
+  color: #0456b7;
+}
+
+#main_nav li ul a:hover {
+  color: #0456b7;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#main_nav li:hover div {
+  display: flex;
+}
+
+.MainPhoto {
+  width: 100%;
+  height: 600px;
+}
+
+.Slogan {
+  position: absolute;
+  top: 500px;
+  left: 110px;
+  font-size: 36px;
+  z-index: 1;
+  color: white;
+}
+/* FOOTER */
+.footer-section {
+  background-color: #dfefff;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.list-footer {
+  color: black;
+}
+.link-footer {
+  color: black;
+}
+.footer-text {
+  color: black;
+  padding: 24px;
+}
+.div-color-blue {
+  background-color: #0456b7;
+  width: 100%;
+  height: 20px;
+}
+.background-color-policy {
+  background-color: #dfefff;
+}
+.policyHeader {
+  background-color: white;
+}
+/* MAP */
+.map {
+  height: 400px;
+  width: 100%;
+}
+.map-div {
+  position: absolute;
+  z-index: 1;
+  background-color: #dfefff;
+  width: 300px;
+  height: 200px;
+  right: 0;
+}
+.ourLoc {
+  margin-left: 30px;
+}
+.ul-map {
+  text-align: center;
+  justify-content: center;
+}
+.link-map {
+  color: black;
+  margin: 10px;
+}
+/* SITE-MAP */
+.sitemapheder {
+  background-color: white;
+}
+.site-map-body {
+  background-color: #dfefff;
+}
+.background-color-sitemap {
+  margin-top: -20px;
+}
+.site-map {
+  padding-left: 50px;
+  padding-top: 40px;
+  font-size: 32px;
+}
+.table-sitemap1 {
+  margin-left: 190px;
+  position: absolute;
+  margin-top: 120px;
+  font-size: 36px;
+  border-collapse: collapse;
+}
+.table-sitemap1 tr {
+  border-bottom: 2px solid #0456b7;
+  border-top: 2px solid #0456b7;
+}
+.table-sitemap2 {
+  margin-left: 755px;
+  margin-top: 81px;
+  margin-bottom: 273px;
+  font-size: 36px;
+  border-collapse: collapse;
+}
+.our-services {
+  border-bottom: 2px solid #0456b7;
+  border-top: 2px solid #0456b7;
+}
+.massage {
+  border-bottom: 2px solid #0456b7;
+}
+.table-sitemap3 {
+  margin-left: 1430px;
+  position: absolute;
+  margin-top: 125px;
+  margin-bottom: 310px;
+  font-size: 36px;
+  border-collapse: collapse;
+}
+.table-sitemap3 tr {
+  border-bottom: 2px solid #0456b7;
+  border-top: 2px solid #0456b7;
+}
+.Request-Site-Map {
+  text-decoration: none;
+  border-top: none;
+}
+.service1 {
+  margin-left: 20px;
+  font-size: 28px;
+  text-decoration: none;
+}
+.service2 {
+  margin-left: 110px;
+  font-size: 28px;
+  text-decoration: none;
+}
+.service3 {
+  margin-left: 110px;
+  font-size: 28px;
+  text-decoration: none;
+}
+/* ABOUT */
+.div-about {
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+.fist-img {
+  height: 1000px;
+}
+.fist-img-phone {
+  display: none;
+}
+.text-about {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  width: 335px;
+  position: absolute;
+  bottom: 35px;
+  left: 700px;
+}
+.div-foto-text {
+  display: flex;
+}
+.box-button {
+  display: flex;
+  padding-left: 40px;
+}
+.about-our-services {
+  width: 506px;
+  height: 70px;
+  flex-shrink: 0;
+  color: #0456b7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.button-click {
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 331px;
+  height: 67px;
+  font-size: 20px;
+  border-radius: 50px;
+  color: #0456b7;
+  border: 2px solid #0456b7;
+}
+.g-title {
+  width: 463px;
+  height: 57px;
+  color: #0456b7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.gynecology {
+  width: 458px;
+  height: 340px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 3px solid #0456b7;
+}
+.d-title {
+  width: 390px;
+  height: 57px;
+  flex-shrink: 0;
+  color: #0456b7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.dantist {
+  width: 458px;
+  height: 640px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 3px solid #0456b7;
+}
+.m-title {
+  width: 489px;
+  height: 57px;
+  color: #0456b7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.massageP {
+  width: 499px;
+  height: 400px;
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 3px solid #0456b7;
+}
+/* DOCTORS  */
+.doc-img {
+  height: 500px;
+  width: 500px;
+}
+.doc-img1 {
+  height: 500px;
+  width: 400px;
+}
+.container-flex-doc {
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+}
+
+#jurez li {
+  z-index: 2;
+}
+#jurez div {
+  display: none;
+  position: absolute;
+  background-color: #c3def9;
+  top: 705px;
+  left: 470px;
+  z-index: 1;
+  width: 400px;
+  box-shadow: 3px 3px 1px 1px #0456b7;
+  cursor: pointer;
+}
+#jurez li:hover div {
+  display: block;
+}
+
+#vanja li {
+  z-index: 2;
+}
+#vanja div {
+  display: none;
+  position: absolute;
+  background-color: #c3def9;
+  top: 705px;
+  left: 920px;
+  z-index: 1;
+  width: 400px;
+  box-shadow: 3px 3px 1px 1px #0456b7;
+  cursor: pointer;
+}
+#vanja li:hover div {
+  display: block;
+}
+
+#dima li {
+  z-index: 2;
+}
+#dima div {
+  display: none;
+  position: absolute;
+  background-color: #c3def9;
+  top: 1275px;
+  left: 650px;
+  z-index: 1;
+  width: 500px;
+  box-shadow: 3px 3px 1px 1px #0456b7;
+  cursor: pointer;
+}
+#dima li:hover div {
+  display: block;
+}
+.kush {
+  height: 120px;
+}
+ul h2 {
+  cursor: pointer;
+}
+.h-gynecologyandurology {
+  text-align: center;
+}
+.box-div-doctors {
+  background-color: #c3def9;
+  width: 200px;
+  text-align: center;
+}
+.div-box-doctors {
+  display: flex;
+  justify-content: center;
+}
+.button-click-MedArt {
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 331px;
+  height: 67px;
+  font-size: 20px;
+  border-radius: 50px;
+  color: #0456b7;
+  border: 2px solid #0456b7;
+}
+.box-div-medart {
+  background-color: #c3def9;
+  width: 300px;
+  text-align: center;
+}
+.list-doctors {
+  color: #0456b7;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.div-box-doctors-text {
+  background-color: #d9d9d9;
+  width: 850px;
+  height: 207px;
+  text-align: center;
+  font-size: 15px;
+}
+.p-medart {
+  text-align: center;
+}
+.ser-ph {
+  display: none;
+}
+.div-img-foto-medart {
+  display: flex;
+}
+.h-modal {
+  text-align: center;
+  color: #0456b7;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* FORM */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  margin-bottom: 14px;
+}
+.modal-form-field {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: block;
+}
+.modal-form-input-wrapper {
+  position: relative;
+}
+.p-color {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.modal-form-input {
+  width: 432px;
+  height: 57px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+.modal-form-submit {
+  width: 507px;
+  height: 56px;
+  margin-bottom: 15px;
+  background-color: #0456b7;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 15px;
+}
+.option-form {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.select-form {
+  width: 432px;
+  height: 57px;
+  background: rgba(217, 217, 217, 0.34);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.masDoc {
+  width: 600px;
+  height: 700px;
+}
+.div-box-doctors-text-Jar {
+  background-color: #d9d9d9;
+  width: 375px;
+  height: 254px;
+  text-align: center;
+}
+.div-button {
+  display: flex;
+  justify-content: center;
+}
+.site-map-ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: #0456b7;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.p-hiden {
+  text-align: center;
+  width: 300px;
+}
+.med-doc-h2 {
+  height: 30px;
+}

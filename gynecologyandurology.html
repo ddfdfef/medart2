@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedArt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- ADAPT HEADER -->
+      <section class="top-nav">
+        <div>
+          <a href="index.html"><img src="img/MedArtLogo.png" alt="Logo" class="Logo"></a>
+        </div>
+        <div class="appointment-phone">
+          <h2><a href="appointment.html" class="app-ph">Записатися на прийом</a></h2>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li><a href="about.html"><h2 class="zero-weight">Про MedArt</h2></a></li>
+          <li><a href="doctors.html"><h2 class="zero-weight">Лікарі MedArt</h2></a></li>
+          <li><h2>Наші Послуги</h2></li>
+          <li><a href="dantist.html">Стоматологія</a></li>
+          <li><a href="gynecologyandurology.html">Гінекологія та Урологія</a></li>
+          <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+        </ul>
+      </section>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html"
+            ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
+          /></a>
+          <ul class="list menu" id="main_nav">
+            <li>
+              <a href="">Наші Послуги</a>
+              <div class="hiden-menu">
+                <ul>
+                  <li><a href="dantist.html">Стоматологія</a></li>
+                  <li>
+                    <a href="gynecologyandurology.html"
+                      >Гінекологія та Урологія</a
+                    >
+                  </li>
+                  <li>
+                    <a href="massage.html"
+                      >Неврологія, травматологія та масаж</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="about.html">Про MedArt</a>
+            </li>
+            <li>
+              <a href="doctors.html">Лікарі MedArt</a>
+            </li>
+            <span class="span-header">
+              <li>
+                <a href="appointment.html" id="appoi">Запис на прийом</a>
+              </li>
+              <li>
+                <a class="link" href="tel:+0673820388"> 067 382 0388 </a>
+              </li>
+            </span>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="gynecologyandurology-section">
+      <div class="container ph-doc-con">
+        <h2 class="h-gynecologyandurology">Гінекологія та урологія</h2>
+        <div class="box-div-doctors">
+          <h2>Лікарі</h2>
+        </div>
+        <div class="div-box-doctors">
+          <img class="doctors-gynecology" src="./img/Bohach.jpg" alt="people" />
+          <img
+            class="doctors-gynecology ph-kush"
+            src="./img/Kushnirenko-doctor.jpg"
+            alt="people"
+          />
+        </div>
+        <div>
+          <ul class="list-doc ul-div-box-doctors">
+            <li class="list">
+              <div class="div-box-doctors-text">
+                <h2 class="b-h2">Богач Юрій Григорович</h2>
+                <p class="b-text">
+                  Лікар-уролог, вищої категорії, к.м.н, стаж роботи — понад 23
+                  роки. Щорічно з 2014 по 2020 роки проходив курси в центрі
+                  генітоуретральної реконструктивної хірургії при фундації Сави
+                  Перовича на базі клініки «BelMedik» в м. Белград Сербія під
+                  керівництвом Р. Джиновича. В 2013році було присуджено науковий
+                  ступень кандидата медичних наук.
+                </p>
+              </div>
+            </li>
+            <li class="list">
+              <div class="div-box-doctors-text">
+                <h2 class="k-h2">Кушніренко Дмитро Олександрович</h2>
+                <p class="k-text">
+                  Лікар вищої категорії. Кандидат медичних наук. Лікар гінеколог
+                  ендокринолог. Лікар мамолог. Лікар ультразвукової діагностики.
+                  Лікарський стаж - 30р.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="gynecologyandurology-section-phone">
+      <div class="div-gyn-section-phone">
+        <h2 class="h-gynecologyandurology">Гінекологія та урологія</h2>
+        <div class="box-div-doctors">
+          <h2>Лікарі</h2>
+        </div>
+        <div class="box-bohach">
+          <img class="doctors-gynecology" src="./img/Bohach.jpg" alt="people" />
+          <div class="div-box-doctors-text-phone">
+            <h2 class="b-h2">Богач Юрій Григорович</h2>
+            <p class="b-text">
+              Лікар-уролог, вищої категорії, к.м.н, стаж роботи — понад 23
+              роки. Щорічно з 2014 по 2020 роки проходив курси в центрі
+              генітоуретральної реконструктивної хірургії при фундації Сави
+              Перовича на базі клініки «BelMedik» в м. Белград Сербія під
+              керівництвом Р. Джиновича. В 2013році було присуджено науковий
+              ступень кандидата медичних наук.
+            </p>
+          </div>
+        </div>
+        <div class="box-kushnirenko">
+          <img
+            class="doctors-gynecology ph-kush"
+            src="./img/Kushnirenko-doctor.jpg"
+            alt="people"
+          />
+          <div class="div-box-doctors-text-phone">
+            <h2 class="k-h2">Кушніренко Дмитро Олександрович</h2>
+            <p class="k-text">
+              Лікар вищої категорії. Кандидат медичних наук. Лікар гінеколог
+              ендокринолог. Лікар мамолог. Лікар ультразвукової діагностики.
+              Лікарський стаж - 30р.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="MedArt-section">
+      <button
+        onclick="window.location.href='./appointment.html';"
+        class="button-click-MedArt"
+      >
+        Записатися на прийом
+      </button>
+      <div class="box-div-medart">
+        <h2 class="h-medart">Чому MEDART?</h2>
+      </div>
+      <div class="div-img-foto-medart">
+        <img class="img-tool-phone" src="./img/MedArt-tool.jpg" alt="tool" />
+        <p class="p-medart-gyn-phone">
+          Підхід лікарів "MedArt" відрізняється від того, який жінка часто
+          зустрічає в поліклініках і жіночих консультаціях. Ми виділяємо дещо
+          інші завдання під час огляду жінки. Ми виступаємо категорично проти
+          комерційних діагнозів й бездоказового лікування. Ми використовуємо
+          щадні сучасні методи діагностики й лікування, гарантуємо безпеку,
+          доброзичливе й відкрите ставлення для кожного пацієнта.
+        </p>
+        <img src="img/gyn-img.png" alt="" class="gyn-img-ph">
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="div-color-blue"></div>
+    <div class="div-color-footer">
+      <footer class="footer-section">
+        <ul class="ul-footer list">
+          <li class="list-footer">
+            <a class="link-footer" href="policy.html">
+              Політика конфіденційності
+            </a>
+          </li>
+          <li class="list-footer">
+            <a class="link-footer" href="./sitemap.html">site map</a>
+          </li>
+        </ul>
+        <div class="footer-text-div">
+          <p class="footer-text">
+            2007-2023 всі права захищені і належать клініці „MedArt”
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

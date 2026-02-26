@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AboutMedArt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- ADAPT HEADER -->
+      <section class="top-nav">
+        <div>
+          <a href="index.html"><img src="img/MedArtLogo.png" alt="Logo" class="Logo"></a>
+        </div>
+        <div class="appointment-phone">
+          <h2><a href="appointment.html" class="app-ph">Записатися на прийом</a></h2>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li><a href="about.html"><h2 class="zero-weight">Про MedArt</h2></a></li>
+          <li><a href="doctors.html"><h2 class="zero-weight">Лікарі MedArt</h2></a></li>
+          <li><h2>Наші Послуги</h2></li>
+          <li><a href="dantist.html">Стоматологія</a></li>
+          <li><a href="gynecologyandurology.html">Гінекологія та Урологія</a></li>
+          <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+        </ul>
+      </section>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html"
+            ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
+          /></a>
+          <ul class="list menu" id="main_nav">
+            <li>
+              <a href="">Наші Послуги</a>
+              <div class="hiden-menu">
+                <ul>
+                  <li><a href="dantist.html">Стоматологія</a></li>
+                  <li>
+                    <a href="gynecologyandurology.html"
+                      >Гінекологія та Урологія</a
+                    >
+                  </li>
+                  <li>
+                    <a href="massage.html"
+                      >Неврологія, травматологія та масаж</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="about.html" class="active">Про MedArt</a>
+            </li>
+            <li>
+              <a href="doctors.html">Лікарі MedArt</a>
+            </li>
+            <span class="span-header">
+              <li>
+                <a href="appointment.html">Запис на прийом</a>
+              </li>
+              <li>
+                <a class="link" href="tel:+0673820388"> 067 382 0388 </a>
+              </li>
+            </span>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <section class="section-about">
+      <div class="div-about">
+        <h2 class="about-phone-h2">Про MedArt</h2>
+      </div>
+      <section class="div-foto-text">
+        <div>
+          <img class="fist-img" src="./img/fist.jpg" alt="fist" />
+          <img class="fist-img-phone" src="img/fistsPhone.png" alt="">
+        </div>
+      </section>
+      <section class="ab-text">
+        <div class="div-texy-about-second">
+          <p class="text-about">
+              «<span class="blue-span">МедАрт</span>»— клінка заснована в 2007 році і з того часу наша команда
+              беззупинно продовжує вам надавати лікування в великому спектрі
+              спеціальностей. За більше ніж 16 років наша клініка має сотні
+              позитивних відгуків та задоволених пацієнтів
+          </p>
+        </div>
+      </section>
+    <!-- SECTION-2 -->
+    <section class="about-section2">
+      <div class="box-button">
+        <button
+          onclick="window.location.href='doctors.html';"
+          class="button-click"
+        >
+          Натисніть щоб дізнатись більше про лікарів
+        </button>
+      </div>
+        <h2 class="about-our-services">Наші послуги:</h2>
+    </section>
+    <!-- SECTION-3 -->
+    <section class="about-section3-texts">
+      <div class="container container-flex">
+        <h1 class="g-title">Гінекологія і урологія</h1>
+        <p class="gynecology">
+          Підхід лікарів "MedArt" відрізняється від того, який жінка часто
+          зустрічає в поліклініках і жіночих консультаціях. Ми виділяємо дещо
+          інші завдання під час огляду жінки. Ми виступаємо категорично проти
+          комерційних діагнозів й бездоказового лікування. Ми використовуємо
+          щадні сучасні методи діагностики й лікування, гарантуємо безпеку,
+          доброзичливе й відкрите ставлення для кожного пацієнта.
+        </p>
+        <h1 class="g-title">Стоматологія</h1>
+        <p class="dantist">
+          Наш клінічний колектив володіє багаторічним досвідом і постійно
+          підвищує свій професійний рівень, використовуючи сучасні технології та
+          передові методики лікування. Ми працюємо з високоякісними матеріалами
+          та обладнанням, щоб забезпечити найкращі результати для наших
+          пацієнтів. Усі наші зусилля спрямовані на те, щоб допомогти нашим
+          пацієнтам повернутись до здорової посмішки і покращити їх якість
+          життя. Ми завжди готові відповісти на запитання, вислухати ваші
+          побажання та забезпечити індивідуальний підхід до кожного клієнта.
+          Тому, якщо ви шукаєте надійного та професійного стоматолога, який
+          забезпечить компетентну та ефективну медичну допомогу, запрошуємо вас
+          записатися на прийом у нашу клініку. Ми віримо, що разом зможемо
+          доглянути вашу посмішку і забезпечити ваше стоматологічне здоров'я на
+          довгі роки.
+        </p>
+        <h1 class="g-title">Массаж та Реабілітація</h1>
+        <p class="massageP">
+          Під час поліклінічного прийому лікар-ортопед-травматолог та
+          масажист-реабілітолог забезпечують обстеження та надання амбулаторної
+          допомоги хворим, які стикаються з захворюваннями та травмами
+          опорно-рухової системи. Компетентний медичний персонал забезпечує
+          належний рівень догляду та діагностичних процедур для кожного
+          пацієнта. Ми прагнемо забезпечити максимальний комфорт пацієнтів під
+          час прийому та надати їм компетентну та ефективну медичну допомогу.
+          Наша мета - допомогти пацієнтам повернутись до активного та здорового
+          способу життя.
+        </p>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="div-color-blue"></div>
+    <div class="div-color-footer">
+      <footer class="footer-section">
+        <ul class="ul-footer list">
+          <li class="list-footer">
+            <a class="link-footer" href="policy.html">
+              Політика конфіденційності
+            </a>
+          </li>
+          <li class="list-footer">
+            <a class="link-footer" href="./sitemap.html">site map</a>
+          </li>
+        </ul>
+        <div class="footer-text-div">
+          <p class="footer-text">
+            2007-2023 всі права захищені і належать клініці „MedArt”
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

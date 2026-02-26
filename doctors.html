@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <header>
+    <!-- ADAPT HEADER -->
+    <section class="top-nav">
+      <div>
+        <a href="index.html"><img src="img/MedArtLogo.png" alt="Logo" class="Logo"></a>
+      </div>
+      <div class="appointment-phone">
+        <h2><a href="appointment.html" class="app-ph">Записатися на прийом</a></h2>
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+      <ul class="menu">
+        <li><a href="about.html"><h2 class="zero-weight">Про MedArt</h2></a></li>
+        <li><a href="doctors.html"><h2 class="zero-weight">Лікарі MedArt</h2></a></li>
+        <li><h2>Наші Послуги</h2></li>
+        <li><a href="dantist.html">Стоматологія</a></li>
+        <li><a href="gynecologyandurology.html">Гінекологія та Урологія</a></li>
+        <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+      </ul>
+    </section>
+    <div class="container">
+      <nav class="navbar">
+      <a href="index.html"
+        ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
+      /></a>
+      <ul class="list menu" id="main_nav">
+        <li><a href="">Наші Послуги</a>
+          <div class="hidden-menu">
+            <ul>
+              <li><a href="dantist.html">Стоматологія</a></li>
+              <li><a href="gynecologyandurology.html">Гінекологія та Урологія</a></li>
+              <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="about.html">Про MedArt</a>
+        </li>
+        <li>
+          <a href="doctors.html" class="active">Лікарі MedArt</a>
+        </li>
+        <span class="span-header">
+        <li>
+          <a href="appointment.html">Запис на прийом</a>
+        </li>
+        <li>
+          <a href="">067 382 0388</a>
+        </li>
+        </span>
+      </ul>
+      </nav>
+    </div>
+    <!-- DOCTORS -->
+    <h2 class="med-doc-h2">Лікарі MedArt</h2>
+    <div class="container-flex-doc">
+      <!-- Bohach -->
+    <div class="bohach">
+      <img src="img/Bohach.jpg" alt="" class="doc-img1">
+      <ul class="jura" id="jurez">
+        <li><h2>Богач Юрій Григорович</h2>
+        <div class="hidden-doc">
+          <ul>
+            <li><p class="blue-text">(Уролог андролог)
+              Лікар-уролог, вищої категорії, к.м.н, стаж роботи — понад 23 роки.
+              Щорічно з  2014 по 2020 роки  проходив курси в центрі генітоуретральної реконструктивної хірургії при фундації Сави Перовича на базі клініки «BelMedik» в м. Белград Сербія під керівництвом Р. Джиновича.
+               В 2013році було присуджено науковий ступень кандидата медичних наук.</p></li>
+          </ul>
+        </div>
+        </li>
+        <p class="p-hiden">
+            (Уролог андролог)
+              Лікар-уролог, вищої категорії, к.м.н, стаж роботи — понад 23 роки.
+              Щорічно з  2014 по 2020 роки  проходив курси в центрі генітоуретральної реконструктивної хірургії при фундації Сави Перовича на базі клініки «BelMedik» в м. Белград Сербія під керівництвом Р. Джиновича.
+               В 2013році було присуджено науковий ступень кандидата медичних наук.
+          </p>
+      </ul>
+    </div>
+    <!-- Jarkovich -->
+    <div class="jarkovich">
+      <img src="img/Jarkovich.jpg" alt="" class="doc-img1">
+      <ul class="ivan" id="vanja">
+        <li><h2>Яркович Іван Борисович</h2>
+        <div class="hidden-doc">
+          <ul>
+            <li><p class="blue-text">Лікар медичної реабілітації та спортивної медицини.
+              Лікар першої категорії.
+              Спеціалізація: Реабілітація після спортивних травм.
+              Реабілітація пацієнтів неврологічного травматологічного, ортопедичного профіля.</p></li>
+          </ul>
+        </div>
+        </li>
+        <p class="p-hiden">Лікар медичної реабілітації та спортивної медицини.
+              Лікар першої категорії.
+              Спеціалізація: Реабілітація після спортивних травм.
+              Реабілітація пацієнтів неврологічного травматологічного, ортопедичного профіля.</p>
+      </ul>
+    </div>
+    </div>
+    <!-- Kushnirenko -->
+    <div class="container-flex-doc">
+      <div class="kushnirenko">
+        <img src="img/Kushnirenko.jpg" alt="" class="doc-img">
+        <ul class="dmytro" id="dima">
+          <li><h2 class="kush">Кушніренко Дмитро Олександрович</h2>
+          <div class="hidden-doc">
+            <ul>
+              <li><p class="blue-text">Лікар вищої категорії.
+                Кандидат медичних наук.
+                Лікар гінеколог ендокринолог.
+                Лікар мамолог. 
+                Лікар ультразвукової діагностики. 
+                Лікарський стаж - 30 років</p></li>
+            </ul>
+          </div>
+          </li>
+          <span class="span-kush">
+          <p class="p-hiden">
+                Лікар вищої категорії.
+                Кандидат медичних наук.
+                Лікар гінеколог ендокринолог.
+                Лікар мамолог. 
+                Лікар ультразвукової діагностики. 
+                Лікарський стаж - 30 років</p>
+          </span>
+        </ul>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="div-color-blue"></div>
+    <div class="div-color-footer">
+      <footer class="footer-section">
+        <ul class="ul-footer list">
+          <li class="list-footer">
+            <a class="link-footer" href="policy.html">
+              Політика конфіденційності
+            </a>
+          </li>
+          <li class="list-footer">
+            <a class="link-footer" href="./sitemap.html">site map</a>
+          </li>
+        </ul>
+        <div class="footer-text-div">
+          <p class="footer-text">
+            2007-2023 всі права захищені і належать клініці „MedArt”
+          </p>
+        </div>
+      </footer>
+    </div>
+</body>
+</html>

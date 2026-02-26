@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <script src="index.js" type="module"></script>  
+  <!-- HEADER -->
+    <header>
+      <!-- ADAPT HEADER -->
+      <section class="top-nav">
+        <div>
+          <a href="index.html"><img src="img/MedArtLogo.png" alt="Logo" class="Logo"></a>
+        </div>
+        <div class="appointment-phone">
+          <h2><a href="appointment.html" class="app-ph">Записатися на прийом</a></h2>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li><a href="about.html"><h2 class="zero-weight">Про MedArt</h2></a></li>
+          <li><a href="doctors.html"><h2 class="zero-weight">Лікарі MedArt</h2></a></li>
+          <li><a class="link" href="tel:+0673820388"><h3 class="zero-weight">067 382 0388</h3></a></li>
+          <li><h2>Наші Послуги</h2></li>
+          <li><a href="dantist.html">Стоматологія</a></li>
+          <li><a href="gynecologyandurology.html">Гінекологія та Урологія</a></li>
+          <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+        </ul>
+      </section>  
+      <div class="container">
+          <nav class="navbar">
+          <a href="index.html"
+            ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
+          /></a>
+          <ul class="list menu" id="main_nav">
+            <li><a href="">Наші Послуги</a>
+              <div class="hiden-menu">
+                <ul>
+                  <li><a href="dantist.html">Стоматологія</a></li>
+                  <li><a href="gynecologyandurology.html">Гінекологія та Урологія</a></li>
+                  <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="about.html">Про MedArt</a>
+            </li>
+            <li>
+              <a href="doctors.html">Лікарі MedArt</a>
+            </li>
+            <span class="span-header">
+            <li>
+              <a href="appointment.html" class="active">Запис на прийом</a>
+            </li>
+            <li>
+               <a class="link" href="tel:+0673820388"> 067 382 0388 </a>
+            </li>
+            </span>
+          </ul>
+          </nav>
+        </div>
+    <!-- Appointment -->
+    <section class="section-form">
+      <div class="container">
+      <h2 class="h-modal">Записатися на прийом</h2>
+    <form class="modal-form">
+      <div class="form-container">
+        <select class="select-form" name="select">
+          <option class="option-form" disabled>Виберіть лікаря</option>
+  <option class="option-form" value="value1">Белінська Ольга Олексіївна</option>
+  <option class="option-form" value="value2">Белінський Владислав Андрійович</option>
+  <option class="option-form" value="value3">Богач Юрій Григорович</option>
+  <option class="option-form" value="value4">Рожанский Дмитро Владиславович</option>
+  <option class="option-form" value="value5">Кушніренко Дмитро Олександрович</option>
+  <option class="option-form" value="value6">Солярик Ігор Францевич.</option>
+  <option class="option-form" value="value7">Яркович Іван Борисович</option>
+        </select>
+      </div>
+      <div class="form-container">
+        <label for="user-name" class="modal-form-field">Ім’я</label>
+        <div class="modal-form-input-wrapper">
+        <input id="user-name" type="text" name="user-name" class="modal-form-input" required minlength="2">
+        </div>
+      </div>
+      <div class="form-container">
+        <label for="user-name" class="modal-form-field">Прізвище</label>
+      <div class="modal-form-input-wrapper">
+        <input id="user-name" type="text" name="user-name" class="modal-form-input" required minlength="2">
+        </div>
+      </div>
+      <div class="form-container">
+        <label for="user-name" class="modal-form-field">По-Батькові</label>
+      <div class="modal-form-input-wrapper">
+        <input id="user-name" type="text" name="user-name" class="modal-form-input" required minlength="2">
+        </div>
+      </div>
+      <div class="form-container">
+        <label class="modal-form-field">Номер телефону</label>
+          <div class="modal-form-input-wrapper">
+            <input 
+            id="user-phone"
+            type="tel"
+            name="user-phone"
+            class="modal-form-input"
+            required
+            >
+      </div>
+      </div>
+      <div class="form-container">
+        <label class="modal-form-field">Дата народження</label>
+          <div class="modal-form-input-wrapper">
+            <input 
+            type="date"
+            id="user-date"
+            name="user-date"
+            class="modal-form-input"
+            required
+            >
+          </div>
+          </div>
+          <div class="form-container">
+        <label class="modal-form-field">Email</label>
+          <div class="modal-form-input-wrapper">
+            <input
+            id="user-email"
+            type="email"
+            name="user-email"
+            class="modal-form-input"
+            required
+            >
+          </div>
+          </div>
+          </div>
+          <div class="div-button">
+         <button type="submit" class="modal-form-submit">Записатися на прийом</button>
+          </div>
+    </form>
+    </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="div-color-blue"></div>
+    <div class="div-color-footer">
+      <footer class="footer-section">
+        <ul class="ul-footer list">
+          <li class="list-footer">
+            <a class="link-footer" href="policy.html">
+              Політика конфіденційності
+            </a>
+          </li>
+          <li class="list-footer">
+            <a class="link-footer" href="./sitemap.html">site map</a>
+          </li>
+        </ul>
+        <div class="footer-text-div">
+          <p class="footer-text">
+            2007-2023 всі права захищені і належать клініці „MedArt”
+          </p>
+        </div>
+      </footer>
+    </div>
+</body>
+</html>

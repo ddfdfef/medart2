@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedArt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- ADAPT HEADER -->
+      <section class="top-nav">
+        <div>
+          <a href="index.html"><img src="img/MedArtLogo.png" alt="Logo" class="Logo"></a>
+        </div>
+        <div class="appointment-phone">
+          <h2><a href="appointment.html" class="app-ph">Записатися на прийом</a></h2>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <li><a href="about.html"><h2 class="zero-weight">Про MedArt</h2></a></li>
+          <li><a href="doctors.html"><h2 class="zero-weight">Лікарі MedArt</h2></a></li>
+          <li><h2>Наші Послуги</h2></li>
+          <li><a href="dantist.html">Стоматологія</a></li>
+          <li><a href="gynecologyandurology.html">Гінекологія та Урологія</a></li>
+          <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+        </ul>
+      </section>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html"
+            ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
+          /></a>
+          <ul class="list menu" id="main_nav">
+            <li>
+              <a href="">Наші Послуги</a>
+              <div class="hiden-menu">
+                <ul>
+                  <li><a href="#">Стоматологія</a></li>
+                  <li>
+                    <a href="gynecologyandurology.html"
+                      >Гінекологія та Урологія</a
+                    >
+                  </li>
+                  <li>
+                    <a href="massage.html"
+                      >Неврологія, травматологія та масаж</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="about.html">Про MedArt</a>
+            </li>
+            <li>
+              <a href="doctors.html">Лікарі MedArt</a>
+            </li>
+            <span class="span-header">
+              <li>
+                <a href="appointment.html" id="appoi">Запис на прийом</a>
+              </li>
+              <li>
+                <a class="link" href="tel:+0673820388"> 067 382 0388 </a>
+              </li>
+            </span>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="dantist-section">
+      <div class="container">
+        <h2 class="h-gynecologyandurology">Стоматологія</h2>
+        <div class="box-div-doctors">
+          <h2>Лікарі</h2>
+        </div>
+        <div class="div-box-doctors">
+          <img class="img-dantist" src="img/human.jpg" alt="people" />
+          <img class="img-dantist" src="img/human.jpg" alt="people" />
+        </div>
+        <div>
+          <ul class="list ul-div-box-doctors">
+            <li>
+              <div class="div-box-doctors-text">
+                <h2>Белінська Ольга Олексіївна</h2>
+                <p><br />•Стоматолог <br />•Стаж роботи 25 років</p>
+              </div>
+            </li>
+            <li>
+              <div class="div-box-doctors-text">
+                <h2>Белінський Владислав Андрійович</h2>
+                <p><br />•Стоматолог <br />•Випускник УНУ</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="dantist-section-phone">
+      <div class="div-dan-section-phone">
+        <h2 class="h-dantist">Стоматологія</h2>
+        <div class="box-div-doctors">
+          <h2>Лікарі</h2>
+        </div>
+        <div class="box-bel">
+          <img class="doctors-dantist" src="img/human.jpg" alt="people" />
+          <div class="div-box-doctors-text-phone">
+            <h2 class="belW-h2">Белінська Ольга Олексіївна</h2>
+            <p><br/>•Стоматолог <br/>•Стаж роботи 25 років</p>
+          </div>
+        </div>
+        <div class="box-belm">
+          <img
+            class="doctors-dantist"
+            src="img/human.jpg"
+            alt="people"
+          />
+          <div class="div-box-doctors-text-phone">
+            <h2 class="belM-h2">Белінський Владислав Андрійович</h2>
+            <p><br/>•Стоматолог <br/>•Випускник УНУ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="MedArt-section">
+      <button
+        onclick="window.location.href='./appointment.html';"
+        class="button-click-MedArt"
+      >
+        Записатися на прийом
+      </button>
+      <div class="box-div-medart">
+        <h2 class="h-medart">Чому MEDART?</h2>
+      </div>
+      <div class="div-img-foto-medart">
+        <img class="img-tool" src="./img/MedArt-tool.jpg" alt="tool" />
+        <img src="img/services-photo.png" alt="" class="ser-ph">
+        <p class="p-medart">
+          Наш клінічний колектив володіє багаторічним досвідом і постійно
+          підвищує свій професійний рівень, використовуючи сучасні технології та
+          передові методики лікування. Ми працюємо з високоякісними матеріалами
+          та обладнанням, щоб забезпечити найкращі результати для наших
+          пацієнтів.
+          <br />Усі наші зусилля спрямовані на те, щоб допомогти нашим пацієнтам
+          повернутись до здорової посмішки і покращити їх якість життя. Ми
+          завжди готові відповісти на запитання, вислухати ваші побажання та
+          забезпечити індивідуальний підхід до кожного клієнта. <br />Тому, якщо
+          ви шукаєте надійного та професійного стоматолога, який забезпечить
+          компетентну та ефективну медичну допомогу, запрошуємо вас записатися
+          на прийом у нашу клініку. Ми віримо, що разом зможемо доглянути вашу
+          посмішку і забезпечити ваше стоматологічне здоров'я на довгі роки.
+        </p>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="div-color-blue"></div>
+    <div class="div-color-footer">
+      <footer class="footer-section">
+        <ul class="ul-footer list">
+          <li class="list-footer">
+            <a class="link-footer" href="policy.html">
+              Політика конфіденційності
+            </a>
+          </li>
+          <li class="list-footer">
+            <a class="link-footer" href="./sitemap.html">site map</a>
+          </li>
+        </ul>
+        <div class="footer-text-div">
+          <p class="footer-text">
+            2007-2023 всі права захищені і належать клініці „MedArt”
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

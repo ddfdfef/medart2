@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedArt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- ADAPT HEADER -->
+      <section class="top-nav">
+        <div>
+          <a href="index.html"
+            ><img src="img/MedArtLogo.png" alt="Logo" class="Logo"
+          /></a>
+        </div>
+        <div class="appointment-phone">
+          <h2>
+            <a href="appointment.html" class="app-ph">Записатися на прийом</a>
+          </h2>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+          <li>
+            <a href="about.html"><h2 class="zero-weight">Про MedArt</h2></a>
+          </li>
+          <li>
+            <a href="doctors.html"
+              ><h2 class="zero-weight">Лікарі MedArt</h2></a
+            >
+          </li>
+          <li><h2>Наші Послуги</h2></li>
+          <li><a href="dantist.html">Стоматологія</a></li>
+          <li>
+            <a href="gynecologyandurology.html">Гінекологія та Урологія</a>
+          </li>
+          <li><a href="massage.html">Неврологія, травматологія та масаж</a></li>
+        </ul>
+      </section>
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html"
+            ><img src="img/MedArtLogo.png" alt="MedArtLogo" class="Logo"
+          /></a>
+          <ul class="list menu" id="main_nav">
+            <li>
+              <a href="">Наші Послуги</a>
+              <div class="hiden-menu">
+                <ul>
+                  <li><a href="dantist.html">Стоматологія</a></li>
+                  <li>
+                    <a href="gynecologyandurology.html"
+                      >Гінекологія та Урологія</a
+                    >
+                  </li>
+                  <li><a href="#">Неврологія, травматологія та масаж</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="about.html">Про MedArt</a>
+            </li>
+            <li>
+              <a href="doctors.html">Лікарі MedArt</a>
+            </li>
+            <span class="span-header">
+              <li>
+                <a href="appointment.html" id="appoi">Запис на прийом</a>
+              </li>
+              <li>
+                <a class="link" href="tel:+0673820388"> 067 382 0388 </a>
+              </li>
+            </span>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="massage-section">
+      <div class="container">
+        <h2 class="h-massage">Неврологія, Травматологія та масаж</h2>
+        <div class="box-div-doctors">
+          <h2>Лікарі</h2>
+        </div>
+        <div class="div-box-doctors">
+          <img src="img/Roshansky.jpg" alt="people" class="masDoc" />
+          <img src="img/Solarik.jpg" alt="people" class="masDoc" />
+        </div>
+
+        <div>
+          <ul class="list ul-div-box-doctors">
+            <li class="list">
+              <div class="div-box-doctors-text-massage">
+                <h2>Рожанский Дмитро Владиславович</h2>
+                <p>
+                  Рожанський Дмитро Владиславович – лікар невролог, стаж роботи
+                  понад 10 років.
+                  <br />• У 2011 – закінчив ВНМУ ім. М.І. Пирогова. <br />• У
+                  2013 – пройшов інтернатуру за спеціальністю неврологія.
+                  <br />• З 2013 – працює в ХМЛ у неврологічному відділенні #1.
+                  Спеціалізація лікаря — гострі захворювання нервової системи,
+                  переважно гострі розлади мозкового кровообігу (інсульти).
+                </p>
+              </div>
+            </li>
+            <li class="list">
+              <div class="div-box-doctors-text-massage">
+                <h2>Солярик Ігор Францевич.</h2>
+                <p>
+                  Лікарський стаж 12 років. Спеціальність Ортопед-травматолог.
+                  Категорія (1)перша. <br />
+                  Лікар медичної реабілітації та спортивної медицини. Лікар
+                  першої категорії Спеціалізація: Реабілітація після спортивних
+                  травм. Реабілітація пацієнтів неврологічного
+                  травматологічного, ортопедичного профіля.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul class="list ul-div-box-doctors-jarkovich">
+            <li>
+              <div class="Jarkovich">
+                <img src="img/Jarkovich.jpg" alt="" class="masDoc" />
+              </div>
+              <div class="div-box-doctors-text-Jar">
+                <h2>Яркович Іван Борисович.</h2>
+                <p>
+                  <br />Лікар медичної реабілітації та спортивної медицини.
+                  <br />Лікар першої категорії.
+
+                  <br />Закінчив МДМУ ім. Сєченова (м. Москва) <br />Стаж роботи
+                  – 17 років.
+
+                  <br />Спеціалізація: Реабілітація після спортивних травм.
+                  <br />Реабілітація пацієнтів неврологічного травматологічного,
+                  ортопедичного профіля.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="massage-section-phone">
+      <div class="div-mas-section-phone">
+        <h2 class="h-massage">Стоматологія</h2>
+        <div class="box-div-doctors">
+          <h2>Лікарі</h2>
+        </div>
+        <div class="box">
+          <img class="doctors-massage" src="img/Roshansky.jpg" alt=""/>
+          <div class="div-box-doctors-text-phone-rosh">
+            <h2>Рожанский Дмитро Владиславович</h2>
+            <p>
+                  Рожанський Дмитро Владиславович – лікар невролог, стаж роботи
+                  понад 10 років.
+                  <br />• У 2011 – закінчив ВНМУ ім. М.І. Пирогова. <br />• У
+                  2013 – пройшов інтернатуру за спеціальністю неврологія.
+                  <br />• З 2013 – працює в ХМЛ у неврологічному відділенні #1.
+                  Спеціалізація лікаря — гострі захворювання нервової системи,
+                  переважно гострі розлади мозкового кровообігу (інсульти).
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            class="doctors-massage"
+            src="img/Solarik.jpg"
+            alt="dan-doc"
+          />
+          <div class="div-box-doctors-text-phone">
+            <h2>Солярик Ігор Францевич</h2>
+            <p>
+              Лікарський стаж 12 років. Спеціальність Ортопед-травматолог.
+              Категорія (1)перша. <br />
+              Лікар медичної реабілітації та спортивної медицини. Лікар
+              першої категорії Спеціалізація: Реабілітація після спортивних
+              травм. Реабілітація пацієнтів неврологічного
+              травматологічного, ортопедичного профіля.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img class="doctors-massage" src="img/Jarkovich.jpg" alt="dan-doc" />
+          <div class="div-box-doctors-text-phone">
+            <h2>Яркович Іван Борисович.</h2>
+            <p>
+              <br />Лікар медичної реабілітації та спортивної медицини.
+              <br />Лікар першої категорії.
+
+              <br />Закінчив МДМУ ім. Сєченова (м. Москва) <br />Стаж роботи
+              – 17 років.
+
+              <br />Спеціалізація: Реабілітація після спортивних травм.
+              <br />Реабілітація пацієнтів неврологічного травматологічного,
+              ортопедичного профіля.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="MedArt-section">
+      <button
+        onclick="window.location.href='./appointment.html';"
+        class="button-click-MedArt"
+      >
+        Записатися на прийом
+      </button>
+      <div class="box-div-medart">
+        <h2 class="h-medart">Чому MEDART?</h2>
+      </div>
+      <div class="div-img-foto-medart">
+        <img class="img-tool" src="img/massageDoc.jpg" alt="tool" />
+        <img src="img/services-photo.png" alt="" class="ser-ph" />
+        <p class="p-medart">
+          Під час поліклінічного прийому лікар-ортопед- травматологта масажист-
+          реабілітолог забезпечують обстеження та надання амбулаторної допомоги
+          хвим. які стикаються з захворюваннямиті позвмами опооно-DVxOROi
+          систоми. Компетентний медичний персонал забезпечує належний рівень
+          догляду та діагностичних процедур для кожного пацієнта. Ми прагнемо
+          запозпочити максимальнии комфоот пацієнтів під час прийому та навети м
+          компетентну та ефективну медичну допомогу. Наша мета - допомогти
+          пацієнтам повернутись до активного та здорового способу життя.
+        </p>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <div class="div-color-blue"></div>
+    <div class="div-color-footer">
+      <footer class="footer-section">
+        <ul class="ul-footer list">
+          <li class="list-footer">
+            <a class="link-footer" href="policy.html">
+              Політика конфіденційності
+            </a>
+          </li>
+          <li class="list-footer">
+            <a class="link-footer" href="./sitemap.html">site map</a>
+          </li>
+        </ul>
+        <div class="footer-text-div">
+          <p class="footer-text">
+            2007-2023 всі права захищені і належать клініці „MedArt”
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
